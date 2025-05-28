@@ -1,0 +1,7 @@
+main {
+    background-color: aqua;
+}
+
+section, .pivo-data, .percentual-lamina, .horimetro-1-2-horas {
+    border: 1px solid red;
+}
