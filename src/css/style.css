@@ -11,6 +11,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2rem;
 }
 
 form {
@@ -23,12 +24,14 @@ form {
 
 .inputs {
     width: 100%;
+    display: grid;
+    gap: 1.5rem;
 }
 
 .pivo-data, .percentual-lamina {
     display: flex;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 5rem;
     align-items: center;
 }
 
@@ -37,23 +40,61 @@ form {
     flex-direction: column;
 }
 
+.horimetro{
+    display: flex;
+    gap: 2.5rem;
+}
 .horimetro-1-2-horas {
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(2, 1fr);;
-    gap: 1rem 3rem;
+    justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
+.horas label {
+    text-align: center;
+} 
+
+.container-horimetro h1 {
+    text-align: center;
+    margin: 0 1rem 5rem 1rem;
+    font-size: 4rem;
+}
 button {
-    width: 150px;
+    width: 200px;
     padding: 1.5rem;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     border: none;
+    font-size: 2rem;
+    margin: 4rem auto;
 }
 input {
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.pivo input{
+    width: 100px;
+}
+
+.horas input {
+    width: 150px;
+}
+
+.container-horimetro a {
+    width: auto;
+    align-self: flex-start;
+    margin-left: 1rem;
     border-radius: 1rem;
     border: none;
+    font-size: 1.5rem;
 }
 
 .destinos {

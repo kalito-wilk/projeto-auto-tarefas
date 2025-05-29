@@ -13,7 +13,7 @@
 </head>
 <body>
     <main>
-        <section>
+        <section class="container-horimetro">
 
             <h1>Lançamentos de Irrigações Diárias</h1>
 
@@ -42,17 +42,19 @@
                     </div>
 
                     <div class="horimetro-1-2-horas">
-                        <div class="horimetro-1">
-                            <label for="horimetro-1">Horimetro Inicial</label>
-                            <input type="number" name="horimetro-1" required placeholder="">
+                        <div class="horimetro">
+                            <div class="horimetro-1">
+                                <label for="horimetro-1">Horimetro Inicial</label>
+                                <input type="number" name="horimetro-1" id="horimetro-1" required placeholder="">
+                            </div>
+                            <div class="horimetro-2">
+                                <label for="horimetro-2">Horimetro Final</label>
+                                <input type="number" name="horimetro-2" id="horimetro-2" required placeholder="">
+                            </div>
                         </div>
                         <div class="horas">
                             <label for="horas">Horas Irrigadas</label>
-                            <input type="number" name="horas" required>
-                        </div>
-                        <div class="horimetro-2">
-                            <label for="horimetro-2">Horimetro Final</label>
-                            <input type="number" name="horimetro-2" required placeholder="">
+                            <input type="text" name="horas" id="horas">
                         </div>
                     </div>
                 </div>
@@ -61,5 +63,7 @@
             <a href="../../index.html">Voltar a Área de Seleções</a>
         </section>
     </main>
+
+    <script type="text/javascript" src="../../src/js/script.js" defer></script>
 </body>
 </html>
