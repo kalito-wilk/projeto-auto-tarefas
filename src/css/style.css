@@ -28,14 +28,14 @@ form {
     gap: 1.5rem;
 }
 
-.pivo-data, .percentual-lamina {
+.pivo-area, .percentual-lamina {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
     align-items: center;
 }
 
-.pivo, .data, .percentual, .lamina, .horimetro-1, .horimetro-2, .horas {
+.pivo, .area, .data, .percentual, .lamina, .horimetro-1, .horimetro-2, .horas {
     display: flex;
     flex-direction: column;
 }
@@ -84,12 +84,16 @@ input {
     text-align: center;
 }
 
-.pivo input{
-    width: 100px;
+.data input {
+    width: 180px;
 }
 
-.data input {
-    min-width: 160px;
+.pivo input {
+    width: 120px;
+}
+
+.area input {
+    min-width: 180px;
 }
 
 .horas input {

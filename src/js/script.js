@@ -9,6 +9,7 @@ function horasCalculadas() {
     const valor2 = parseFloat(horimetro2.value) || 0;
 
     horas.value = valor2 - valor1;
+
 }
 
 horimetro2.addEventListener('input', horasCalculadas);
