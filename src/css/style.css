@@ -42,16 +42,13 @@ form {
 
 .horimetro{
     display: flex;
-    gap: 2.5rem;
+    gap: 4rem;
 }
 .horimetro-1-2-horas {
-    /*display: grid;
-    grid-template-columns: repeat(2, 1fr);;
-    justify-content: space-between;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .horimetro-1, .horimetro-2 {
@@ -94,6 +91,10 @@ input {
 
 .area input {
     min-width: 160px;
+}
+
+.percentual-lamina input {
+    min-width: 140px;
 }
 
 .horas input {
